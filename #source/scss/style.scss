@@ -41,7 +41,7 @@ body {
 	border: 1px solid;
 }
 .beginning {
-	background: url("/img/BG-Header.jpg") no-repeat 0 0 / auto auto;
+	background: url("../img/BG-Header.jpg") no-repeat 0 0 / auto auto;
 	color: #fff;
 	padding-bottom: 153px;
 
@@ -277,8 +277,6 @@ body {
 
 .contact {
 	padding: 182px 0 100px;
-	&__title {
-	}
 
 	&__row {
 		margin: 120px -40px 0;
@@ -295,9 +293,6 @@ body {
 		width: 100%;
 	}
 
-	&__form {
-	}
-
 	.name-email {
 		display: flex;
 		justify-content: space-between;
@@ -311,9 +306,6 @@ body {
 
 	&__btn-send {
 		text-align: right;
-	}
-
-	&__btn {
 	}
 
 	&__text {
@@ -381,4 +373,9 @@ body {
 	font-weight: 900;
 	border: 2px solid #000;
 	border-radius: 50%;
+	a {
+		&:visited {
+			color: #000;
+		}
+	}
 }
